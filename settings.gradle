@@ -1,0 +1,4 @@
+rootProject.name = 'cli-command-spring-boot'
+include 'cli-command-spring-boot-starter'
+include 'test-app'
+
