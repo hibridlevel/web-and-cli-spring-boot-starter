@@ -21,13 +21,20 @@ public class SpringWebAndCliApplication {
 					.bannerMode(Banner.Mode.OFF)
 			;
 
-			// http://www.baeldung.com/spring-boot-exit-codes
+			/*
+				Returns custom error code to the shell which runs application (this jar).
+				It is necessary when you use cli commands on a CI runner (especially on GitLab CI).
+
+				Credit: http://www.baeldung.com/spring-boot-exit-codes
+			*/
 			System.exit(
 					SpringApplication.exit(
 							applicationBuilder.run(args)
 					)
 			);
 		} else {
+			// if there is no argument run in web app mode
+			// in this case disable shell to avoid displaying shell prompt and reading commands from stdin
 			applicationBuilder
 					.properties(
 							new HashMap<String, Object>()
