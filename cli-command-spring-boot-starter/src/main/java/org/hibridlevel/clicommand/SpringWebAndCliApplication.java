@@ -1,4 +1,4 @@
-package org.hibridlevel.clicommand.testapp;
+package org.hibridlevel.clicommand;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
