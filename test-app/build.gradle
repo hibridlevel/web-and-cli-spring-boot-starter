@@ -16,7 +16,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 bootRun {
-    main = 'hu.hibridlevel.jwt.testapp.Application'
+    main = 'org.hibridlevel.clicommand.testapp.Application'
 }
 
 bootJar {
