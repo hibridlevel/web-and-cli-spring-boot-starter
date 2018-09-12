@@ -14,3 +14,13 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+
+project('web-and-cli-spring-boot-starter') {
+    publishing {
+        publications {
+            app(MavenPublication) {
+                from components.java
+            }
+        }
+    }
+}
