@@ -1,4 +1,4 @@
-rootProject.name = 'cli-command-spring-boot'
-include 'cli-command-spring-boot-starter'
+rootProject.name = 'web-and-cli-spring-boot'
+include 'web-and-cli-spring-boot-starter'
 include 'test-app'
 

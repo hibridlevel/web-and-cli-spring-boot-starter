@@ -1,4 +1,5 @@
 .idea
+web-and-cli-spring-boot.iml
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Gradle template
@@ -17,8 +18,8 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 
-cli-command-spring-boot-starter/out
-cli-command-spring-boot-starter/build
+web-and-cli-spring-boot-starter/out
+web-and-cli-spring-boot-starter/build
 
 test-app/out
 test-app/build
